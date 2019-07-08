@@ -15,3 +15,11 @@ a = arr.array('i', [2, 4, 6, 8])  # is is considered as type code
 print("First element:", a[0])
 print("Second element:", a[1])
 print("Second last element:", a[-1])
+
+#anonymous function
+
+fp = lambda no1, no2: no1 + no2
+
+ret = fp(1, 3)
+
+print("Addition is ", ret)
